@@ -1,0 +1,34 @@
+.activity-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  background-color: white;
+  margin: auto;
+  margin-top: 4rem;
+  width: 60rem;
+  height: 30rem;
+  border: 0.2rem solid black;
+  box-shadow: 0.1rem 0.1rem 0.3rem #444;
+}
+
+.activity-form button {
+  height: 5.4rem;
+  width: 18rem;
+  border-radius: 2rem;
+  font-size: 2.2rem;
+}
+
+.activity-form input {
+  margin-bottom: 2rem;
+}
+
+.activity-form input[type="text"] {
+  width: 40rem;
+  font-size: 1.8rem;
+}
+
+.activity-form label {
+  font-size: 1.8rem;
+  font-weight: bold;
+}

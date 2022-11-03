@@ -1,0 +1,74 @@
+.routine-activity-head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.activity-options .material-symbols-outlined {
+  font-size: 2rem;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+  margin-right: 2rem;
+  font-size: 3.4rem;
+}
+
+.routine-activities {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.routine-activitity {
+  border-right: 0.1rem solid black;
+  border-bottom: 0.1rem solid black;
+  margin-bottom: 2rem;
+}
+
+.routine-activitity a {
+  font-weight: bold;
+}
+
+.routine-activitity p {
+  margin-left: 2rem;
+}
+
+.routine-card {
+  width: 100rem;
+  min-height: 40rem;
+  background-color: white;
+  margin: auto;
+  margin-top: 2rem;
+  border: 0.2rem outset black;
+  box-shadow: 0.1rem 0.1rem 0.3rem #444;
+}
+
+.routine-card h2 {
+  text-align: center;
+  font-size: 2.6rem;
+  margin-top: 0;
+  background-color: #006ba6;
+  color: white;
+  padding: 1rem;
+  text-transform: capitalize;
+  border-bottom: 0.2rem solid black;
+}
+
+.routine-details {
+  margin-left: 2rem;
+}
+
+.routine-details a {
+  color: black;
+}
+
+.routine-options {
+  margin: 0;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  margin-top: -1rem;
+}
+
+.routine-options a {
+  color: black;
+}

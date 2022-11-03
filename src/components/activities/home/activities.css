@@ -1,0 +1,125 @@
+.activities-nav {
+  background-color: #d81159;
+  height: 4rem;
+  line-height: 4rem;
+  color: white;
+  border-top: 0.1rem solid black;
+  border-bottom: 0.1rem solid black;
+}
+
+.activities-nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.activity-content {
+  background-color: #fff;
+  border: 0.2rem solid black;
+  box-shadow: 0.1rem 0.1rem 0.3rem #444;
+}
+
+.activity-content h3 {
+  font-size: 1.8rem;
+}
+
+.activity-content p {
+  margin-left: 1rem;
+}
+
+.activity-head {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  min-height: 2rem;
+  align-items: center;
+  background-color: #006ba6;
+  padding: 0 1rem;
+}
+.activity-head .material-symbols-outlined {
+  color: white;
+  font-size: 2.4rem;
+}
+.activities-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1rem;
+  margin: 1rem;
+}
+
+.activity-options {
+  display: flex;
+}
+
+.activity-options a {
+  margin: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.routine-activity-form {
+  background-color: white;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top: 30rem;
+  width: 40rem;
+  min-height: 24rem;
+  border: 0.2rem solid black;
+  box-shadow: 0.2rem 0.2rem 0.6rem #444;
+}
+
+.routine-activity-form-head {
+  display: flex;
+  min-height: 4rem;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #d81159;
+  color: white;
+  border-bottom: 0.1rem solid black;
+}
+
+.routine-activity-form-head a {
+  font-size: 2.2rem;
+}
+
+.routine-activity-form-head h3 {
+  margin-left: 1rem;
+  font-size: 2.2rem;
+  text-transform: capitalize;
+}
+
+.routine-activity-form-inputs {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.routine-activity-form-inputs button {
+  height: 4.2rem;
+  width: 14rem;
+  border-radius: 2rem;
+  font-size: 1.8rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.routine-activity-form-inputs label {
+  margin-right: 1rem;
+  font-size: 2rem;
+}
+
+.routine-activity-form-inputs input[type="number"] {
+  font-size: 2rem;
+  width: 4rem;
+  margin-right: 4rem;
+}
+
+.visible {
+  display: block;
+}

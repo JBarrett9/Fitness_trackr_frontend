@@ -1,0 +1,39 @@
+input[type="number"] {
+  width: 4rem;
+}
+
+.section-nav {
+  background-color: #ffbc42;
+  min-height: 4rem;
+  line-height: 4rem;
+  border-bottom: 0.1rem solid black;
+}
+
+.section-nav button {
+  width: 9rem;
+  height: 2.6rem;
+  margin-left: 2rem;
+  font-size: 1.6rem;
+}
+
+.section-nav-buttons {
+  float: right;
+  margin-right: 4rem;
+}
+
+.section-nav button:first-child {
+  border-radius: 2rem 0 0 2rem;
+}
+
+.section-nav button:last-child {
+  border-radius: 0 2rem 2rem 0;
+}
+
+.section-nav label {
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+
+.section-nav span {
+  margin-left: 2rem;
+}

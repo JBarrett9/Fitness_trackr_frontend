@@ -1,0 +1,15 @@
+.user-routine-details {
+  background-color: white;
+  margin: 2rem 4rem;
+  padding: 0 2rem;
+  border: 0.2rem solid black;
+  box-shadow: 0.1rem 0.1rem 0.3rem #444;
+}
+
+.user-routine-details a {
+  color: black;
+}
+
+.user-routine-details h2 {
+  text-transform: capitalize;
+}
