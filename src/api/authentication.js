@@ -1,7 +1,7 @@
-const BASE_URL = "http://fitnesstrac-kr.herokuapp.com/api";
+const BASE_URL = "https://fitnesstrac-kr.herokuapp.com/api";
 
 const getUser = async (token, setUser) => {
-  fetch("http://fitnesstrac-kr.herokuapp.com/api/users/me", {
+  fetch("https://fitnesstrac-kr.herokuapp.com/api/users/me", {
     headers: {
       "Content-Type": "application/json",
       Authorization: `Bearer ${token}`,
@@ -15,7 +15,7 @@ const getUser = async (token, setUser) => {
 };
 
 const login = async (username, password, setToken, setError, navigate) => {
-  await fetch("http://fitnesstrac-kr.herokuapp.com/api/users/login", {
+  await fetch("https://fitnesstrac-kr.herokuapp.com/api/users/login", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
@@ -42,7 +42,7 @@ const registerUser = async (
   setError,
   navigate
 ) => {
-  await fetch("http://fitnesstrac-kr.herokuapp.com/api/users/register", {
+  await fetch("https://fitnesstrac-kr.herokuapp.com/api/users/register", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",

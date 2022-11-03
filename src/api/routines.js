@@ -30,7 +30,7 @@ const createRoutine = async (routine, token, navigate, setMessage) => {
 };
 
 const deleteRoutine = async (routineId, token, navigate, setMessage) => {
-  fetch(`http://fitnesstrac-kr.herokuapp.com/api/routines/${routineId}`, {
+  fetch(`https://fitnesstrac-kr.herokuapp.com/api/routines/${routineId}`, {
     method: "DELETE",
     headers: {
       "Content-Type": "application/json",
@@ -56,7 +56,7 @@ const deleteRoutineActivity = async (
   setMessage
 ) => {
   await fetch(
-    `http://fitnesstrac-kr.herokuapp.com/api/routine_activities/${routineActivityId}`,
+    `https://fitnesstrac-kr.herokuapp.com/api/routine_activities/${routineActivityId}`,
     {
       method: "DELETE",
       headers: {
@@ -122,7 +122,7 @@ const updateRoutine = async (
   setMessage
 ) => {
   const { name, goal, isPublic } = routine;
-  fetch(`http://fitnesstrac-kr.herokuapp.com/api/routines/${routineId}`, {
+  fetch(`https://fitnesstrac-kr.herokuapp.com/api/routines/${routineId}`, {
     method: "PATCH",
     headers: {
       "Content-Type": "application/json",
@@ -156,7 +156,7 @@ const updateRoutineActivity = async (
   const { count, duration } = routineActivity;
 
   await fetch(
-    `http://fitnesstrac-kr.herokuapp.com/api/routine_activities/${routineActivityId}`,
+    `https://fitnesstrac-kr.herokuapp.com/api/routine_activities/${routineActivityId}`,
     {
       method: "PATCH",
       headers: {

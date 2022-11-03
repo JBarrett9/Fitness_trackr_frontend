@@ -11,7 +11,7 @@ const addActivityToRoutine = async (
   const activityId = activity.id;
 
   await fetch(
-    `http://fitnesstrac-kr.herokuapp.com/api/routines/${routineId}/activities`,
+    `https://fitnesstrac-kr.herokuapp.com/api/routines/${routineId}/activities`,
     {
       method: "POST",
       headers: {
@@ -43,7 +43,7 @@ const addActivityToRoutine = async (
 const createActivity = async (activity, token, navigate, setMessage) => {
   const { name, description } = activity;
 
-  await fetch("http://fitnesstrac-kr.herokuapp.com/api/activities", {
+  await fetch("https://fitnesstrac-kr.herokuapp.com/api/activities", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
@@ -83,7 +83,7 @@ const fetchActivities = async (setActivities) => {
 
 const fetchRoutinesByActivity = async (activityId, setActivities) => {
   fetch(
-    `http://fitnesstrac-kr.herokuapp.com/api/activities/${activityId}/routines`,
+    `https://fitnesstrac-kr.herokuapp.com/api/activities/${activityId}/routines`,
     {
       headers: {
         "Content-Type": "application/json",
@@ -106,7 +106,7 @@ const updateActivity = async (
 ) => {
   const { name, description } = activity;
   await fetch(
-    `http://fitnesstrac-kr.herokuapp.com/api/activities/${activityId}`,
+    `https://fitnesstrac-kr.herokuapp.com/api/activities/${activityId}`,
     {
       method: "PATCH",
       headers: {
